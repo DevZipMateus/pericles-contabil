@@ -20,7 +20,17 @@ const MobileMenuPanel = ({ isMenuOpen, onClose, menuItems }: MobileMenuPanelProp
     >
       {/* Menu Header */}
       <div className="flex items-center justify-between p-6 border-b">
-        <div className="text-2xl font-bold text-primary">Contabilify</div>
+        <div className="flex items-center gap-2">
+          <img 
+            src="/lovable-uploads/3c511863-2339-48ba-939c-344171028f59.png" 
+            alt="Péricles Vilela Santos" 
+            className="h-10"
+          />
+          <div>
+            <div className="text-lg font-bold text-primary">PÉRICLES VILELA</div>
+            <div className="text-sm text-gray-600">CONTADOR</div>
+          </div>
+        </div>
         <button 
           onClick={onClose}
           className="p-2 rounded-full hover:bg-gray-100 text-gray-500"
@@ -51,11 +61,11 @@ const MobileMenuPanel = ({ isMenuOpen, onClose, menuItems }: MobileMenuPanelProp
         <div className="mt-12 pt-8 border-t border-gray-100">
           <p className="text-md text-gray-500 mb-3">Entre em contato conosco</p>
           <a 
-            href="tel:+5500999999999" 
+            href="tel:+5511146168357" 
             className="text-xl text-primary hover:text-primary/80 font-medium block py-2
                        transition-all duration-200 hover:translate-x-1 hover:scale-[1.02]"
           >
-            (00) 99999-9999
+            (11) 4616-8357
           </a>
         </div>
       </nav>

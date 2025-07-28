@@ -3,28 +3,52 @@ import PlanCard from './PlanCard';
 import AnimatedSection from './AnimatedSection';
 
 const PlansSection = () => {
-  const plans = [{
-    title: "MEI",
-    price: "R$199",
-    description: "Ideal para Microempreendedores Individuais",
-    features: ["Declaração Anual (DASN-SIMEI)", "Emissão de guias (DAS)", "Suporte básico por e-mail", "Orientação fiscal"],
-    isPopular: false
-  }, {
-    title: "Essencial",
-    price: "R$399",
-    description: "Perfeito para pequenas empresas",
-    features: ["Contabilidade completa", "Apuração de impostos", "Folha de pagamento (até 5 funcionários)", "Suporte por telefone e e-mail", "Relatórios trimestrais"],
-    isPopular: true
-  }, {
-    title: "Empresarial",
-    price: "R$799",
-    description: "Para empresas em crescimento",
-    features: ["Contabilidade completa", "Planejamento tributário", "Folha de pagamento (até 15 funcionários)", "Consultoria mensal", "Relatórios gerenciais mensais", "Atendimento prioritário"],
-    isPopular: false
-  }];
+  const plans = [
+    {
+      title: "Contabilidade Essencial",
+      price: "Consulte",
+      description: "Serviços básicos de contabilidade para pequenas empresas",
+      features: [
+        "Registro e escrituração contábil",
+        "Emissão de livros contábeis",
+        "Entrega de arquivos digitais RFB",
+        "Suporte básico por e-mail",
+        "Relatórios mensais"
+      ],
+      isPopular: false
+    },
+    {
+      title: "Fiscal Completo",
+      price: "Consulte",
+      description: "Gestão fiscal completa para sua empresa",
+      features: [
+        "Registro e escrituração fiscal",
+        "Emissão de guias e impostos",
+        "Arquivos digitais SEF e RFB",
+        "Planejamento tributário",
+        "Suporte telefônico",
+        "Consultoria fiscal mensal"
+      ],
+      isPopular: true
+    },
+    {
+      title: "Trabalhista Premium",
+      price: "Consulte",
+      description: "Gestão completa de departamento pessoal",
+      features: [
+        "Processamento de folha de pagamento",
+        "Emissão de guias trabalhistas",
+        "Arquivos INSS, CEF, RFB e MTB",
+        "Admissões e demissões",
+        "Férias e 13º salário",
+        "Atendimento prioritário"
+      ],
+      isPopular: false
+    }
+  ];
 
   return (
-    <section id="planos" className="bg-white py-16">
+    <section id="planos" className="bg-white py-24">
       <div className="section-container">
         <AnimatedSection>
           <h2 className="section-title">Nossos Planos</h2>
@@ -47,14 +71,20 @@ const PlansSection = () => {
           ))}
         </div>
 
-        <AnimatedSection className="mt-16 text-center bg-gray-50 rounded-xl p-8">
-          <h3 className="text-xl font-bold mb-3">Precisa de um plano personalizado?</h3>
-          <p className="text-gray-600 mb-6">
-            Oferecemos planos personalizados para empresas com necessidades específicas. 
-            Entre em contato conosco para uma proposta sob medida.
+        <AnimatedSection className="mt-16 text-center bg-blue-50 rounded-xl p-8">
+          <h3 className="text-2xl font-bold mb-4 text-primary">Legalização e Terceiro Setor</h3>
+          <p className="text-gray-700 mb-6 max-w-3xl mx-auto">
+            Oferecemos também serviços especializados em legalização de empresas 
+            (abertura, encerramento, alterações) e assessoria completa para organizações 
+            do terceiro setor, incluindo obtenção de certidões e cadastros necessários.
           </p>
-          <a href="#contato" className="btn-primary inline-block">
-            Solicitar Plano Personalizado
+          <a 
+            href="https://wa.me/5511146168357" 
+            className="btn-primary inline-block"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Solicitar Orçamento Personalizado
           </a>
         </AnimatedSection>
       </div>

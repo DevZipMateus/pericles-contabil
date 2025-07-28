@@ -16,17 +16,17 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    /* Primary color (60%) */
-    --primary: 215 60% 45%;
+    /* Primary color (60%) - Blue from logo */
+    --primary: 215 85% 35%;
     --primary-foreground: 210 40% 98%;
 
-    /* Secondary color (30%) */
-    --secondary: 200 30% 80%;
+    /* Secondary color (30%) - Light Blue */
+    --secondary: 210 40% 85%;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
-    /* Accent color (10%) */
-    --accent: 25 100% 55%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent color (10%) - Darker Blue */
+    --accent: 215 85% 25%;
+    --accent-foreground: 210 40% 98%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
@@ -36,13 +36,39 @@
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 215 85% 35%;
 
     --radius: 0.75rem;
   }
 
   .dark {
-    /* ... keep existing code (dark mode variables) */
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 215 85% 45%;
+    --primary-foreground: 222.2 84% 4.9%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --accent: 215 85% 35%;
+    --accent-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 215 85% 45%;
   }
 }
 
@@ -71,7 +97,6 @@
     @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-md;
   }
 
-  /* Reduced vertical spacing */
   .section-container {
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16;
   }

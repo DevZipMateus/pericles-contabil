@@ -6,12 +6,22 @@ import AboutSection from '@/components/AboutSection';
 import ServicesSection from '@/components/ServicesSection';
 import PlansSection from '@/components/PlansSection';
 import TestimonialsSection from '@/components/TestimonialsSection';
+import LocationSection from '@/components/LocationSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
+import WhatsAppButton from '@/components/WhatsAppButton';
 
 const Index = () => {
   useEffect(() => {
-    // Smooth scroll implementation with reduced offset for tighter sections
+    // SEO Meta Tags
+    document.title = 'Péricles Vilela Santos - Contador | Contabilidade, Fiscal e Trabalhista';
+    
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'Péricles Vilela Santos - Contador especializado em contabilidade, fiscal, trabalhista e legalização. Atendimento com ética, clareza e pontualidade em São Paulo.');
+    }
+
+    // Smooth scroll implementation
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -23,7 +33,7 @@ const Index = () => {
         if (!targetElement) return;
 
         window.scrollTo({
-          top: targetElement.offsetTop - 70, // Reduced offset for tighter layout
+          top: targetElement.offsetTop - 80,
           behavior: 'smooth'
         });
       });
@@ -48,9 +58,11 @@ const Index = () => {
         <ServicesSection />
         <PlansSection />
         <TestimonialsSection />
+        <LocationSection />
         <ContactSection />
       </main>
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 };

@@ -1,5 +1,5 @@
 
-import { Calculator, BarChart3, FileText, Users, PieChart, Building } from 'lucide-react';
+import { Calculator, FileText, Users, Building, PieChart, ClipboardList } from 'lucide-react';
 import ServiceCard from './ServiceCard';
 import AnimatedSection from './AnimatedSection';
 
@@ -7,33 +7,33 @@ const ServicesSection = () => {
   const services = [
     {
       icon: Calculator,
-      title: 'Contabilidade',
-      description: 'Serviços completos de contabilidade para empresas de todos os portes, com demonstrativos claros e precisos.'
-    },
-    {
-      icon: BarChart3,
-      title: 'Fiscal',
-      description: 'Gerenciamento de obrigações fiscais, apuração de impostos e planejamento tributário para otimizar a carga fiscal.'
+      title: 'CONTABILIDADE',
+      description: 'Registro, Escrituração e Emissão dos Livros Contábeis. Entrega dos Arquivos Digitais da RFB.'
     },
     {
       icon: FileText,
-      title: 'Departamento Pessoal',
-      description: 'Gestão completa da folha de pagamento, admissões, demissões e todas as rotinas trabalhistas.'
-    },
-    {
-      icon: Building,
-      title: 'Abertura de Empresa',
-      description: 'Auxílio completo na abertura, alteração ou encerramento de empresas, com agilidade e segurança.'
-    },
-    {
-      icon: PieChart,
-      title: 'Consultoria Empresarial',
-      description: 'Análise financeira, planejamento estratégico e apoio na tomada de decisões para o crescimento do seu negócio.'
+      title: 'FISCAL',
+      description: 'Registro, Escrituração e Emissão dos Livros Fiscais. Emissão de Guias, Geração de Impostos e Entrega dos Arquivos Digitais da SEF e RFB.'
     },
     {
       icon: Users,
-      title: 'Societário',
-      description: 'Elaboração e alteração de contratos sociais, atas e documentos societários conforme a legislação vigente.'
+      title: 'TRABALHISTA',
+      description: 'Processamento da Folha de Pagamento. Emissão de Guias. Geração de Impostos e Entrega dos Arquivos Digitais para o INSS, CEF, RFB e MTB.'
+    },
+    {
+      icon: Building,
+      title: 'LEGALIZAÇÃO',
+      description: 'Abertura, Encerramento, Alteração e Regularização de Empresas. Alteração e Baixa das Inscrições nos Órgãos Públicos. Obtenção de Certidões Negativas.'
+    },
+    {
+      icon: PieChart,
+      title: 'TERCEIRO SETOR',
+      description: 'Abertura, Encerramento, Alteração. Atas, Editais, Estatutos, documentação necessária para obtenção de Certidões de Interesse Social nos municípios, Cadastro de Entidades do Estado de São Paulo (CEE) e Cebas.'
+    },
+    {
+      icon: ClipboardList,
+      title: 'CONSULTORIA EMPRESARIAL',
+      description: 'Análise financeira, planejamento estratégico e apoio na tomada de decisões para o crescimento sustentável do seu negócio.'
     }
   ];
 
@@ -64,7 +64,12 @@ const ServicesSection = () => {
         </div>
 
         <AnimatedSection className="text-center mt-16">
-          <a href="#contato" className="btn-primary inline-block">
+          <a 
+            href="https://wa.me/5511146168357" 
+            className="btn-primary inline-block"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Solicite um orçamento
           </a>
         </AnimatedSection>

@@ -5,27 +5,27 @@ import AnimatedSection from './AnimatedSection';
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      content: "A parceria com a Contabilify trouxe resultados excelentes para nossa empresa. A equipe é atenciosa e nos ajudou a reduzir significativamente nossa carga tributária.",
-      author: "Carlos Silva",
-      role: "Diretor Financeiro",
+      content: "Péricles é um profissional exemplar. Sempre atencioso, pontual e ético em todos os serviços prestados. Recomendo sem reservas!",
+      author: "Maria Silva",
+      role: "Empresária - Comércio",
       rating: 5
     },
     {
-      content: "Profissionais extremamente competentes e atualizados. Sempre nos mantêm informados sobre mudanças na legislação e nos orientam da melhor forma possível.",
-      author: "Ana Souza",
-      role: "Empresária",
+      content: "Excelente contador! Nos ajudou muito com a legalização da nossa empresa e continua prestando um serviço de qualidade excepcional.",
+      author: "João Santos",
+      role: "Diretor - Indústria",
       rating: 5
     },
     {
-      content: "Desde que contratamos os serviços da Contabilify, temos mais tempo para focar no nosso negócio. A tranquilidade de saber que nossa contabilidade está em boas mãos não tem preço.",
-      author: "Marcos Oliveira",
-      role: "CEO",
-      rating: 5
-    },
-    {
-      content: "Atendimento personalizado e de qualidade. Os relatórios gerenciais têm sido fundamentais para tomarmos decisões estratégicas em nossa empresa.",
-      author: "Patricia Mendes",
+      content: "Profissional competente e sempre atualizado. A transparência e clareza no atendimento fazem toda a diferença.",
+      author: "Ana Costa",
       role: "Gerente Administrativa",
+      rating: 5
+    },
+    {
+      content: "Trabalho com o Péricles há anos e sempre tive total confiança nos serviços prestados. Pontualidade e ética são seus pontos fortes.",
+      author: "Carlos Oliveira",
+      role: "Empresário - Prestação de Serviços",
       rating: 5
     }
   ];
@@ -56,6 +56,20 @@ const TestimonialsSection = () => {
             </AnimatedSection>
           ))}
         </div>
+
+        <AnimatedSection className="text-center mt-12">
+          <p className="text-gray-600 mb-6">
+            Junte-se aos nossos clientes satisfeitos e transforme sua contabilidade
+          </p>
+          <a 
+            href="https://wa.me/5511146168357" 
+            className="btn-primary inline-block"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Solicitar Atendimento
+          </a>
+        </AnimatedSection>
       </div>
     </section>
   );

@@ -6,11 +6,11 @@ const HeroSection = () => {
   return (
     <section 
       id="início" 
-      className="relative min-h-screen flex items-start pt-24 md:pt-16 md:items-center bg-gradient-to-r from-blue-50 to-slate-50 overflow-hidden"
+      className="relative min-h-screen flex items-start pt-24 md:pt-16 md:items-center bg-gradient-to-br from-blue-50 via-white to-slate-50 overflow-hidden"
     >
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
-        <div className="absolute inset-y-0 right-0 w-1/2 bg-primary/5 skew-x-12 transform origin-bottom"></div>
+        <div className="absolute inset-y-0 right-0 w-1/2 bg-primary/10 skew-x-12 transform origin-bottom"></div>
         <div className="absolute top-1/4 left-1/4 w-32 h-32 md:w-64 md:h-64 rounded-full bg-primary/10"></div>
         <div className="absolute bottom-1/3 right-1/3 w-32 h-32 md:w-40 md:h-40 rounded-full bg-blue-200/20"></div>
       </div>
@@ -19,18 +19,26 @@ const HeroSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
           <AnimatedSection animation="fade-in-up" className="space-y-6">
             <span className="inline-block text-sm font-semibold py-1 px-3 bg-primary/10 text-primary rounded-full">
-              Contabilidade Moderna e Eficiente
+              Consultoria Contábil Especializada
             </span>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
-              Soluções Contábeis <br />
-              <span className="text-primary">para seu Negócio</span>
+              Péricles Vilela Santos <br />
+              <span className="text-primary">Contador</span>
             </h1>
             <p className="text-lg text-gray-600 max-w-xl">
-              Oferecemos soluções contábeis completas, focadas em eficiência e tecnologia, 
-              para que você possa se concentrar no crescimento da sua empresa.
+              {'"Transformando números em estratégias inovadoras"'}
+            </p>
+            <p className="text-base text-gray-600 max-w-xl">
+              Atendemos nossos clientes com ética, clareza e pontualidade, 
+              oferecendo soluções completas em contabilidade, fiscal, trabalhista e legalização.
             </p>
             <div className="flex flex-wrap gap-4 pt-2">
-              <a href="#contato" className="btn-primary flex items-center gap-2">
+              <a 
+                href="https://wa.me/5511146168357" 
+                className="btn-primary flex items-center gap-2"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Solicitar Orçamento
                 <ChevronRight className="h-4 w-4" />
               </a>
@@ -41,18 +49,18 @@ const HeroSection = () => {
 
             <div className="pt-8 flex items-center gap-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">+500</div>
-                <div className="text-sm text-gray-600">Clientes Atendidos</div>
-              </div>
-              <div className="h-12 w-px bg-gray-200"></div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-primary">15+</div>
+                <div className="text-3xl font-bold text-primary">+15</div>
                 <div className="text-sm text-gray-600">Anos de Experiência</div>
               </div>
               <div className="h-12 w-px bg-gray-200"></div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">98%</div>
-                <div className="text-sm text-gray-600">Satisfação</div>
+                <div className="text-3xl font-bold text-primary">100%</div>
+                <div className="text-sm text-gray-600">Ético e Transparente</div>
+              </div>
+              <div className="h-12 w-px bg-gray-200"></div>
+              <div className="text-center">
+                <div className="text-3xl font-bold text-primary">CRC</div>
+                <div className="text-sm text-gray-600">Regularizado</div>
               </div>
             </div>
           </AnimatedSection>
