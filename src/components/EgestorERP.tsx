@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 
 const EgestorERP = () => {
   // Link for both the title and button
-  const egestorLink = "https://blaster.zipline.com.br/egestor/#315312";
+  const egestorLink = "https://www.egestor.com.br/afl/12057";
 
   return (
     <section className="py-16 bg-white overflow-hidden">
