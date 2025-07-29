@@ -1,4 +1,5 @@
 
+
 import { cn } from '@/lib/utils';
 
 const WhatsAppButton = () => {
@@ -24,7 +25,7 @@ const WhatsAppButton = () => {
       aria-label="Falar no WhatsApp"
     >
       <img 
-        src="/lovable-uploads/5e868415-197e-46d2-a1aa-ab0da5ca8ebe.png" 
+        src="/lovable-uploads/ddc65749-b34e-41ef-b993-e4811238028a.png" 
         alt="WhatsApp" 
         className="w-full h-full object-cover rounded-full"
       />
@@ -33,3 +34,4 @@ const WhatsAppButton = () => {
 };
 
 export default WhatsAppButton;
+
