@@ -1,4 +1,3 @@
-
 import { ChevronRight } from 'lucide-react';
 import AnimatedSection from './AnimatedSection';
 
@@ -22,8 +21,8 @@ const HeroSection = () => {
               Consultoria Contábil Especializada
             </span>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
-              Péricles Vilela Santos <br />
-              <span className="text-primary">Contador</span>
+              Péricles Vilela <br />
+              <span className="text-primary">Contabilidade</span>
             </h1>
             <p className="text-lg text-gray-600 max-w-xl">
               {'"Transformando números em estratégias inovadoras"'}
