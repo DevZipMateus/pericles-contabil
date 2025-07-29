@@ -32,7 +32,7 @@ const Logo = ({ scrolled }: LogoProps) => {
               scrolled ? "text-gray-600" : "text-gray-700"
             )}
           >
-            CONTADOR
+            CONTABILIDADE
           </div>
         </div>
       </div>
