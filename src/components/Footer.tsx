@@ -1,5 +1,5 @@
 
-import { Facebook, Instagram, Phone, Mail, MapPin, Calendar, FileText, Calculator } from 'lucide-react';
+import { Facebook, Instagram, Phone, Mail, MapPin } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="container mx-auto px-4 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4">Péricles Vilela Santos</h3>
             <p className="text-gray-400 mb-6">
@@ -32,33 +32,6 @@ const Footer = () => {
               <li><a href="#servicos" className="hover:text-white transition-colors">Legalização</a></li>
               <li><a href="#servicos" className="hover:text-white transition-colors">Consultoria Empresarial</a></li>
               <li><a href="#servicos" className="hover:text-white transition-colors">Planejamento Tributário</a></li>
-            </ul>
-          </div>
-          
-          <div>
-            <h3 className="text-xl font-bold mb-4">Links Úteis</h3>
-            <ul className="space-y-2 text-gray-400">
-              <li>
-                <a href="#" className="hover:text-white transition-colors flex items-center">
-                  <Calendar className="h-4 w-4 mr-2" />
-                  Agenda Tributária
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition-colors flex items-center">
-                  <FileText className="h-4 w-4 mr-2" />
-                  Tabelas Práticas
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition-colors flex items-center">
-                  <Calculator className="h-4 w-4 mr-2" />
-                  Calculadoras
-                </a>
-              </li>
-              <li><a href="https://site.projetusti.com.br/site/page/32165" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Portal do Cliente</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Receita Federal</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Previdência Social</a></li>
             </ul>
           </div>
           
