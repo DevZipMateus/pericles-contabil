@@ -1,4 +1,3 @@
-
 import { X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { MenuItem } from "./types";
@@ -61,11 +60,11 @@ const MobileMenuPanel = ({ isMenuOpen, onClose, menuItems }: MobileMenuPanelProp
         <div className="mt-12 pt-8 border-t border-gray-100">
           <p className="text-md text-gray-500 mb-3">Entre em contato conosco</p>
           <a 
-            href="tel:+5511146168357" 
+            href="tel:+5511974122649" 
             className="text-xl text-primary hover:text-primary/80 font-medium block py-2
                        transition-all duration-200 hover:translate-x-1 hover:scale-[1.02]"
           >
-            (11) 4616-8357
+            (11) 9 7412-2649
           </a>
         </div>
       </nav>

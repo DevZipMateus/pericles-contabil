@@ -1,4 +1,3 @@
-
 import { MapPin, Clock, Phone, Mail } from 'lucide-react';
 import AnimatedSection from './AnimatedSection';
 
@@ -37,10 +36,10 @@ const LocationSection = () => {
                   <div className="ml-4">
                     <h4 className="text-lg font-medium">Telefone</h4>
                     <a 
-                      href="tel:+5511146168357" 
+                      href="tel:+5511974122649" 
                       className="text-gray-600 hover:text-primary transition-colors"
                     >
-                      (11) 4616-8357
+                      (11) 9 7412-2649
                     </a>
                   </div>
                 </div>

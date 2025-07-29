@@ -1,3 +1,4 @@
+
 import { ChevronRight } from 'lucide-react';
 import AnimatedSection from './AnimatedSection';
 
@@ -33,7 +34,7 @@ const HeroSection = () => {
             </p>
             <div className="flex flex-wrap gap-4 pt-2">
               <a 
-                href="https://wa.me/5511146168357" 
+                href="https://wa.me/5511974122649" 
                 className="btn-primary flex items-center gap-2"
                 target="_blank"
                 rel="noopener noreferrer"

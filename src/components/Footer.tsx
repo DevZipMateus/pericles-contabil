@@ -1,4 +1,3 @@
-
 import { Facebook, Instagram, Phone, Mail, MapPin } from 'lucide-react';
 
 const Footer = () => {
@@ -46,8 +45,8 @@ const Footer = () => {
                   <Phone className="h-3 w-3" />
                 </div>
                 <div>
-                  <a href="tel:+551146168357" className="hover:text-white transition-colors">
-                    (11) 4616-8357
+                  <a href="tel:+5511974122649" className="hover:text-white transition-colors">
+                    (11) 9 7412-2649
                   </a>
                 </div>
               </li>

@@ -1,4 +1,3 @@
-
 import { Mail, Phone, MapPin, MessageCircle } from 'lucide-react';
 import AnimatedSection from './AnimatedSection';
 
@@ -26,10 +25,10 @@ const ContactSection = () => {
                   <div className="ml-4">
                     <h4 className="text-lg font-medium">Telefone</h4>
                     <a 
-                      href="tel:+5511146168357" 
+                      href="tel:+5511974122649" 
                       className="text-gray-600 hover:text-primary transition-colors text-lg"
                     >
-                      (11) 4616-8357
+                      (11) 9 7412-2649
                     </a>
                   </div>
                 </div>
@@ -67,12 +66,12 @@ const ContactSection = () => {
                   <div className="ml-4">
                     <h4 className="text-lg font-medium">WhatsApp</h4>
                     <a 
-                      href="https://wa.me/5511146168357" 
+                      href="https://wa.me/5511974122649" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-gray-600 hover:text-primary transition-colors"
                     >
-                      (11) 4616-8357
+                      (11) 9 7412-2649
                     </a>
                   </div>
                 </div>
@@ -106,7 +105,7 @@ const ContactSection = () => {
                   Responderemos o mais breve possível.
                 </p>
                 <a 
-                  href="https://wa.me/5511146168357" 
+                  href="https://wa.me/5511974122649" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="btn-primary inline-block"
@@ -126,13 +125,13 @@ const ContactSection = () => {
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <a 
-                href="tel:+5511146168357" 
+                href="tel:+5511974122649" 
                 className="btn-primary"
               >
                 Ligar Agora
               </a>
               <a 
-                href="https://wa.me/5511146168357" 
+                href="https://wa.me/5511974122649" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="btn-secondary"

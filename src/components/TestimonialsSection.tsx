@@ -62,7 +62,7 @@ const TestimonialsSection = () => {
             Junte-se aos nossos clientes satisfeitos e transforme sua contabilidade
           </p>
           <a 
-            href="https://wa.me/5511146168357" 
+            href="https://wa.me/5511974122649" 
             className="btn-primary inline-block"
             target="_blank"
             rel="noopener noreferrer"

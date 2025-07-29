@@ -1,9 +1,8 @@
 
-
 import { cn } from '@/lib/utils';
 
 const WhatsAppButton = () => {
-  const phoneNumber = '5511146168357';
+  const phoneNumber = '5511974122649';
   const message = 'Olá! Gostaria de saber mais sobre os serviços contábeis.';
   
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
@@ -34,4 +33,3 @@ const WhatsAppButton = () => {
 };
 
 export default WhatsAppButton;
-

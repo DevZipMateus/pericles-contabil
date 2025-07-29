@@ -77,7 +77,7 @@ const AboutSection = () => {
             </div>
             
             <a 
-              href="https://wa.me/5511146168357" 
+              href="https://wa.me/5511974122649" 
               className="btn-primary inline-block mt-4"
               target="_blank"
               rel="noopener noreferrer"
