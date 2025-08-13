@@ -8,6 +8,7 @@ import PlansSection from '@/components/PlansSection';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import EgestorERP from '@/components/EgestorERP';
 import ClientAreaSection from '@/components/ClientAreaSection';
+import AppDownloadSection from '@/components/AppDownloadSection';
 import LocationSection from '@/components/LocationSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
@@ -62,6 +63,7 @@ const Index = () => {
         <TestimonialsSection />
         <EgestorERP />
         <ClientAreaSection />
+        <AppDownloadSection />
         <LocationSection />
         <ContactSection />
       </main>
